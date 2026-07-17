@@ -1,18 +1,63 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
 ---
 
 <BaseLayout title="Home">
-  <h1>VaultMill</h1>
 
-  <p><strong>Executive Intelligence</strong></p>
+<Hero />
 
-  <p>
-    Professional executive profiles built from verified public information.
-  </p>
+<section class="section">
 
-  <p>
-    VaultMill provides concise, factual, and well-organized profiles of business
-    leaders.
-  </p>
+<h2>What is VaultMill?</h2>
+
+<p>
+VaultMill is an executive intelligence platform that organizes
+verified public information into clear, structured profiles.
+Whether you're researching a CEO, board member, founder, or
+industry leader, the goal is to make reliable information easier
+to find and understand.
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>Featured Executives</h2>
+
+<div class="cards">
+
+<article class="card">
+<h3>Satya Nadella</h3>
+
+<p>
+Chairman and Chief Executive Officer of Microsoft.
+</p>
+
+</article>
+
+<article class="card">
+
+<h3>Mary Barra</h3>
+
+<p>
+Chair and Chief Executive Officer of General Motors.
+</p>
+
+</article>
+
+<article class="card">
+
+<h3>Jensen Huang</h3>
+
+<p>
+Founder and Chief Executive Officer of NVIDIA.
+</p>
+
+</article>
+
+</div>
+
+</section>
+
 </BaseLayout>
