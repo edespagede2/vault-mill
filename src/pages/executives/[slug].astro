@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+
+const executives = await getCollection("executives");
+
+console.log("Executives found:", executives.length);
+
+export async function getStaticPaths() {
+  const executives = await getCollection("executives");
+
+  console.log(
+    "Static paths:",
+    executives.map((e) => e.data.slug)
+  );
+
+  return executives.map((executive) => ({
+    params: {
+      slug: executive.data.slug,
+    },
+    props: {
+      executive,
+    },
+  }));
+}
+
+const { executive } = Astro.props;
+---
+
+<h1>{executive.data.name}</h1>
+<p>{executive.body}</p>
