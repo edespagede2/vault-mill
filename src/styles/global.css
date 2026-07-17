@@ -1,68 +1,122 @@
 :root {
-  --text: #222;
-  --background: #ffffff;
-  --accent: #1f4b99;
-  --max-width: 1100px;
+    --text: #222;
+    --muted: #666;
+    --accent: #1f4b99;
+    --background: #fff;
+    --border: #e4e4e4;
+    --max-width: 1100px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
-  color: var(--text);
-  background: var(--background);
-  line-height: 1.6;
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+}
+
+.container,
+main {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 2rem;
 }
 
 main {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.site-header {
+    border-bottom: 1px solid var(--border);
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.site-header nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.site-header nav a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.site-header nav a:hover {
+    color: var(--accent);
 }
 
 h1,
 h2,
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
 }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-header {
-  border-bottom: 1px solid #ddd;
+.button:hover {
+    opacity: 0.9;
 }
 
-header .container {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 1rem 2rem;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 5rem;
 }
 
-.logo {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--text);
+.site-footer .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-nav {
-  display: flex;
-  gap: 1.5rem;
+.footer-title {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-nav a {
-  color: var(--text);
+.site-footer nav {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.site-footer nav a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.site-footer nav a:hover {
+    color: var(--accent);
+}
+
+.copyright {
+    color: var(--muted);
+    font-size: 0.9rem;
 }
