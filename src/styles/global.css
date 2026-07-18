@@ -195,3 +195,43 @@ h3 {
   line-height: 1.8;
   font-size: 1.1rem;
 }
+/* Executive Profile */
+
+.profile {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.profile-header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.profile-header h1 {
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+.profile-title {
+  font-size: 1.3rem;
+  color: #444;
+  margin-bottom: .5rem;
+}
+
+.profile-company {
+  color: #777;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.profile-body {
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+
+.profile-body p {
+  margin-bottom: 1.5rem;
+}
