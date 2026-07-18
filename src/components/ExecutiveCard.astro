@@ -1,0 +1,12 @@
+---
+const { executive } = Astro.props;
+---
+
+<a
+  class="executive-card"
+  href={`/executives/${executive.data.slug}`}
+>
+  <h3>{executive.data.name}</h3>
+
+  <p>{executive.data.title}</p>
+</a>

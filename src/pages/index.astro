@@ -1,63 +1,26 @@
 ---
+import { getCollection } from "astro:content";
+
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
+import ExecutiveCard from "../components/ExecutiveCard.astro";
+
+const executives = await getCollection(
+  "executives",
+  ({ data }) => data.published
+);
 ---
 
-<BaseLayout title="Home">
+<BaseLayout title="VaultMill">
+  <Hero />
 
-<Hero />
+  <section class="featured">
+    <h2>Featured Executives</h2>
 
-<section class="section">
-
-<h2>What is VaultMill?</h2>
-
-<p>
-VaultMill is an executive intelligence platform that organizes
-verified public information into clear, structured profiles.
-Whether you're researching a CEO, board member, founder, or
-industry leader, the goal is to make reliable information easier
-to find and understand.
-</p>
-
-</section>
-
-<section class="section">
-
-<h2>Featured Executives</h2>
-
-<div class="cards">
-
-<article class="card">
-<h3>Satya Nadella</h3>
-
-<p>
-Chairman and Chief Executive Officer of Microsoft.
-</p>
-
-</article>
-
-<article class="card">
-
-<h3>Mary Barra</h3>
-
-<p>
-Chair and Chief Executive Officer of General Motors.
-</p>
-
-</article>
-
-<article class="card">
-
-<h3>Jensen Huang</h3>
-
-<p>
-Founder and Chief Executive Officer of NVIDIA.
-</p>
-
-</article>
-
-</div>
-
-</section>
-
+    <div class="executive-grid">
+      {executives.map((executive) => (
+        <ExecutiveCard executive={executive} />
+      ))}
+    </div>
+  </section>
 </BaseLayout>
