@@ -278,3 +278,19 @@ h3 {
 .executive-card p {
   color: #666;
 }
+/* Standard Pages */
+
+.page {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.page h1 {
+  margin-bottom: 2rem;
+}
+
+.page p {
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+}
