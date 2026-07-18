@@ -99,26 +99,26 @@ Amazon Web Services
 
 ## Executive Summary
 
-Andy Levi is a technology executive and product leader with more than two decades of experience building enterprise software, artificial intelligence, and cloud-based products. His career spans engineering, consulting, entrepreneurship, and product leadership, with a consistent focus on bringing innovative technologies from concept to market. :contentReference[oaicite:0]{index=0}
+Andy Levi is a technology executive and product leader with more than two decades of experience building enterprise software, artificial intelligence, and cloud-based products. His career spans engineering, consulting, entrepreneurship, and product leadership, with a consistent focus on bringing innovative technologies from concept to market.
 
 ## Career Highlights
 
 - Principal Product Leader, Generative AI and AI/ML, Amazon Web Services.
 - Co-founder, Chief Technology Officer, and Chief Product Officer of Spiro.ai.
 - Former technology and product leader at IntraLinks, Forrester Research, and Innoveer Solutions.
-- Mentor with Techstars, supporting early-stage technology companies. :contentReference[oaicite:1]{index=1}
+- Mentor with Techstars, supporting early-stage technology companies.
 
 ## Professional Journey
 
-Levi joined Amazon Web Services in 2022, where he leads product initiatives focused on generative artificial intelligence and machine learning. His work centers on developing AI-powered capabilities that help improve sales productivity, customer engagement, and operational efficiency across AWS. Publicly described initiatives include AI-generated account summaries and tools that transform unstructured customer information into actionable business insights. :contentReference[oaicite:2]{index=2}
+Levi joined Amazon Web Services in 2022, where he leads product initiatives focused on generative artificial intelligence and machine learning. His work centers on developing AI-powered capabilities that help improve sales productivity, customer engagement, and operational efficiency across AWS. Publicly described initiatives include AI-generated account summaries and tools that transform unstructured customer information into actionable business insights.
 
-Prior to AWS, Levi co-founded Spiro.ai, serving as Founder, Chief Technology Officer, and Chief Product Officer. He led the company from startup through product-market fit, overseeing product strategy, engineering, and go-to-market execution. Spiro.ai developed an AI-powered CRM platform focused on manufacturers and distributors before being acquired in 2024. :contentReference[oaicite:3]{index=3}
+Prior to AWS, Levi co-founded Spiro.ai, serving as Founder, Chief Technology Officer, and Chief Product Officer. He led the company from startup through product-market fit, overseeing product strategy, engineering, and go-to-market execution. Spiro.ai developed an AI-powered CRM platform focused on manufacturers and distributors before being acquired in 2024.
 
-Earlier in his career, Levi held leadership positions at IntraLinks, Forrester Research, and Innoveer Solutions. Those roles, combined with earlier experience in software engineering and consulting, established the technical and business foundation that has characterized his leadership in enterprise software and artificial intelligence. :contentReference[oaicite:4]{index=4}
+Earlier in his career, Levi held leadership positions at IntraLinks, Forrester Research, and Innoveer Solutions. Those roles, combined with earlier experience in software engineering and consulting, established the technical and business foundation that has characterized his leadership in enterprise software and artificial intelligence.
 
-In addition to his corporate responsibilities, Levi serves as a mentor with Techstars, advising entrepreneurs developing emerging technology companies. :contentReference[oaicite:5]{index=5}
+In addition to his corporate responsibilities, Levi serves as a mentor with Techstars, advising entrepreneurs developing emerging technology companies.
 
 ## Education
 
 **Universidad Metropolitana**  
-Bachelor of Science in Systems Engineering :contentReference[oaicite:6]{index=6}
+Bachelor of Science in Systems Engineering
