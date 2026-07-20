@@ -1,77 +1,20 @@
 ---
-# ============================================================================
-# Identity
-# ============================================================================
-
-id: "executive-allen-deary"
+id: "mn_000001"
+type: "person"
 slug: "allen-deary"
 
-# ============================================================================
-# Public Information
-# ============================================================================
-
 name: "Allen Deary"
-title: "Chief Operating Officer"
-company: "OpenExchange, Inc."
-location: "Greater Boston, Massachusetts, USA"
 
-published: true
-featured: false
+description: >
+  Allen Deary is a technology executive, entrepreneur, and operating
+  leader with more than three decades of experience building, scaling,
+  and advising technology companies. Throughout his career he has served
+  in executive leadership roles including Chief Executive Officer, Chief
+  Operating Officer, and Chief Financial Officer, with a focus on
+  enterprise software, cloud computing, outsourced product development,
+  and global operations.
 
-# ============================================================================
-# Editorial Metadata
-# ============================================================================
-
-profile_created: "2026-07-17"
-last_reviewed: "2026-07-17"
-next_review: "2027-07-17"
-
-profile_version: 1
-review_status: "current"
-review_frequency_months: 12
-
-editor: "Edwin Durham"
-confidence: "high"
-
-# ============================================================================
-# Research Metadata
-# ============================================================================
-
-canonical_sources:
-  linkedin: "https://www.linkedin.com/in/adeary/"
-  company: "https://www.openexc.com/"
-
-sources_checked:
-  - linkedin
-  - company
-  - public_web
-
-research_notes: ""
-
-# ============================================================================
-# SEO
-# ============================================================================
-
-meta_title: "Allen Deary | Executive Profile | VaultMill"
-
-meta_description: >
-  Executive profile of Allen Deary, Chief Operating Officer at
-  OpenExchange, Inc.
-
-# ============================================================================
-# Classification
-# ============================================================================
-
-industries:
-  - Enterprise Software
-  - Cloud Computing
-  - Technology Services
-
-expertise:
-  - Executive Leadership
-  - Operations
-  - Product Development
-  - Mergers and Acquisitions
+last_reviewed: 2026-07-17
 
 tags:
   - OpenExchange
@@ -79,14 +22,18 @@ tags:
   - Startup Founder
   - Technology Executive
 
-# ============================================================================
-# Future Relationships
-# ============================================================================
+links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/adeary/
 
-company_id: ""
-education_ids: []
-board_ids: []
-related_executives: []
+  - label: OpenExchange
+    url: https://www.openexc.com/
+
+relationships: []
+
+sources:
+  - https://www.linkedin.com/in/adeary/
+  - https://www.openexc.com/
 
 ---
 

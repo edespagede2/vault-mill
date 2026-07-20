@@ -1,0 +1,45 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const millnames = await getCollection("millnames");
+
+  return Promise.all(
+    millnames.map(async (millname) => {
+      const { Content } = await render(millname);
+
+      return {
+        params: {
+          slug: millname.data.slug,
+        },
+        props: {
+          millname,
+          Content,
+        },
+      };
+    })
+  );
+}
+
+const { millname, Content } = Astro.props;
+---
+
+<BaseLayout title={millname.data.name}>
+  <section class="profile">
+    <header class="profile-header">
+      <h1>{millname.data.name}</h1>
+
+      <p>{millname.data.description}</p>
+
+      <p>
+        <strong>Last reviewed:</strong>{" "}
+        {millname.data.last_reviewed.toLocaleDateString()}
+      </p>
+    </header>
+
+    <section class="profile-body">
+      <Content />
+    </section>
+  </section>
+</BaseLayout>

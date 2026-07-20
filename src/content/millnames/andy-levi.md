@@ -1,77 +1,19 @@
 ---
-# ============================================================================
-# Identity
-# ============================================================================
-
-id: "executive-andy-levi"
+id: "mn_000002"
+type: "person"
 slug: "andy-levi"
 
-# ============================================================================
-# Public Information
-# ============================================================================
-
 name: "Andy Levi"
-title: "Principal Product Leader, GenAI / AI & ML"
-company: "Amazon Web Services"
-location: "Boston, Massachusetts, USA"
 
-published: true
-featured: false
+description: >
+  Andy Levi is a technology executive and product leader with more than
+  two decades of experience building enterprise software, artificial
+  intelligence, and cloud-based products. His career spans engineering,
+  consulting, entrepreneurship, and product leadership, with a
+  consistent focus on bringing innovative technologies from concept to
+  market.
 
-# ============================================================================
-# Editorial Metadata
-# ============================================================================
-
-profile_created: "2026-07-17"
-last_reviewed: "2026-07-17"
-next_review: "2027-07-17"
-
-profile_version: 1
-review_status: "current"
-review_frequency_months: 12
-
-editor: "Edwin Durham"
-confidence: "high"
-
-# ============================================================================
-# Research Metadata
-# ============================================================================
-
-canonical_sources:
-  linkedin: "https://www.linkedin.com/in/andylevi/"
-  company: "https://aws.amazon.com/"
-
-sources_checked:
-  - linkedin
-  - company
-  - public_web
-
-research_notes: ""
-
-# ============================================================================
-# SEO
-# ============================================================================
-
-meta_title: "Andy Levi | Executive Profile | VaultMill"
-
-meta_description: >
-  Executive profile of Andy Levi, Principal Product Leader,
-  GenAI / AI & ML at Amazon Web Services.
-
-# ============================================================================
-# Classification
-# ============================================================================
-
-industries:
-  - Artificial Intelligence
-  - Cloud Computing
-  - Enterprise Software
-
-expertise:
-  - Generative AI
-  - Product Management
-  - Machine Learning
-  - Enterprise Software
+last_reviewed: 2026-07-17
 
 tags:
   - Amazon Web Services
@@ -79,14 +21,18 @@ tags:
   - Artificial Intelligence
   - Product Leadership
 
-# ============================================================================
-# Future Relationships
-# ============================================================================
+links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/andylevi/
 
-company_id: ""
-education_ids: []
-board_ids: []
-related_executives: []
+  - label: Amazon Web Services
+    url: https://aws.amazon.com/
+
+relationships: []
+
+sources:
+  - https://www.linkedin.com/in/andylevi/
+  - https://aws.amazon.com/
 
 ---
 

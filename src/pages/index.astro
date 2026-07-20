@@ -3,23 +3,20 @@ import { getCollection } from "astro:content";
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
-import ExecutiveCard from "../components/ExecutiveCard.astro";
+import MillNameCard from "../components/MillNameCard.astro";
 
-const executives = await getCollection(
-  "executives",
-  ({ data }) => data.published
-);
+const millnames = await getCollection("millnames");
 ---
 
 <BaseLayout title="VaultMill">
   <Hero />
 
   <section class="featured">
-    <h2>Featured Executives</h2>
+    <h2>MillNames</h2>
 
-    <div class="executive-grid">
-      {executives.map((executive) => (
-        <ExecutiveCard executive={executive} />
+    <div class="millname-grid">
+      {millnames.map((millname) => (
+        <MillNameCard millname={millname} />
       ))}
     </div>
   </section>

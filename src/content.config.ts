@@ -1,10 +1,10 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 
-const executives = defineCollection({
+const millnames = defineCollection({
   loader: glob({
     pattern: "**/*.md",
-    base: "./src/content/executives",
+    base: "./src/content/millnames",
   }),
 
   schema: z.object({
@@ -13,71 +13,64 @@ const executives = defineCollection({
     // =========================================================================
 
     id: z.string(),
+    type: z.enum([
+      "person",
+      "organization",
+      "place",
+      "product",
+      "event",
+      "animal",
+    ]),
     slug: z.string(),
 
     // =========================================================================
-    // Public Information
+    // Core Information
     // =========================================================================
 
     name: z.string(),
-    title: z.string(),
-    company: z.string(),
-    location: z.string(),
+    description: z.string(),
 
-    published: z.boolean().default(true),
-    featured: z.boolean().default(false),
+    image: z.string().optional(),
 
-    // =========================================================================
-    // Editorial Metadata
-    // =========================================================================
-
-    profile_created: z.string(),
-    last_reviewed: z.string(),
-    next_review: z.string(),
-
-    profile_version: z.number().default(1),
-    review_status: z.string(),
-    review_frequency_months: z.number(),
-
-    editor: z.string(),
-    confidence: z.string(),
-
-    // =========================================================================
-    // Research Metadata
-    // =========================================================================
-
-    canonical_sources: z.object({
-      linkedin: z.string().optional(),
-      company: z.string().optional(),
-    }),
-
-    sources_checked: z.array(z.string()).default([]),
-
-    research_notes: z.string().default(""),
-
-    // =========================================================================
-    // SEO
-    // =========================================================================
-
-    meta_title: z.string(),
-    meta_description: z.string(),
+    last_reviewed: z.date(),
 
     // =========================================================================
     // Classification
     // =========================================================================
 
-    industries: z.array(z.string()).default([]),
-    expertise: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
 
     // =========================================================================
-    // Future Relationships
+    // External Links
     // =========================================================================
 
-    company_id: z.string().default(""),
-    education_ids: z.array(z.string()).default([]),
-    board_ids: z.array(z.string()).default([]),
-    related_executives: z.array(z.string()).default([]),
+    links: z
+      .array(
+        z.object({
+          label: z.string(),
+          url: z.string().url(),
+        })
+      )
+      .default([]),
+
+    // =========================================================================
+    // Relationships
+    // =========================================================================
+
+    relationships: z
+      .array(
+        z.object({
+          predicate: z.string(),
+          target: z.string(),
+        })
+      )
+      .default([]),
+
+    // =========================================================================
+    // Sources
+    // =========================================================================
+
+    sources: z.array(z.string().url()).default([]),
   }),
 });
 
@@ -103,6 +96,6 @@ const companies = defineCollection({
 });
 
 export const collections = {
-  executives,
+  millnames,
   companies,
 };

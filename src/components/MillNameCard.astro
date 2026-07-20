@@ -1,0 +1,12 @@
+---
+const { millname } = Astro.props;
+---
+
+<a
+  class="millname-card"
+  href={`/millnames/${millname.data.slug}`}
+>
+  <h3>{millname.data.name}</h3>
+
+  <p>{millname.data.description}</p>
+</a>

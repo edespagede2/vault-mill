@@ -1,76 +1,19 @@
 ---
-# ============================================================================
-# Identity
-# ============================================================================
-
-id: "executive-avi-goldberg"
+id: "mn_000003"
+type: "person"
 slug: "avi-goldberg"
 
-# ============================================================================
-# Public Information
-# ============================================================================
-
 name: "Avi Goldberg"
-title: "Partner"
-company: "GreatPoint Ventures"
-location: "Greater Boston, Massachusetts, USA"
 
-published: true
-featured: false
+description: >
+  Avi Goldberg is an entrepreneur, venture capitalist, and technology
+  executive with more than two decades of experience founding,
+  operating, and investing in technology companies. His career spans
+  startup creation, venture development, executive leadership, and
+  venture capital, with a focus on helping emerging companies grow
+  from early-stage concepts into scalable businesses.
 
-# ============================================================================
-# Editorial Metadata
-# ============================================================================
-
-profile_created: "2026-07-17"
-last_reviewed: "2026-07-17"
-next_review: "2027-07-17"
-
-profile_version: 1
-review_status: "current"
-review_frequency_months: 12
-
-editor: "Edwin Durham"
-confidence: "high"
-
-# ============================================================================
-# Research Metadata
-# ============================================================================
-
-canonical_sources:
-  linkedin: "https://www.linkedin.com/in/avigoldberg/"
-
-sources_checked:
-  - linkedin
-  - public_web
-
-research_notes: ""
-
-# ============================================================================
-# SEO
-# ============================================================================
-
-meta_title: "Avi Goldberg | Executive Profile | VaultMill"
-
-meta_description: >
-  Executive profile of Avi Goldberg, Partner at GreatPoint Ventures.
-
-# ============================================================================
-# Classification
-# ============================================================================
-
-industries:
-  - Venture Capital
-  - Enterprise Software
-  - Artificial Intelligence
-  - Technology
-
-expertise:
-  - Venture Capital
-  - Entrepreneurship
-  - Product Strategy
-  - Executive Leadership
-  - Startup Growth
+last_reviewed: 2026-07-17
 
 tags:
   - GreatPoint Ventures
@@ -79,23 +22,18 @@ tags:
   - Entrepreneurship
   - Technology
 
-# ============================================================================
-# Future Relationships
-# ============================================================================
+links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/avigoldberg/
 
-company_id: ""
-education_ids: []
-board_ids: []
-related_executives: []
+relationships: []
+
+sources:
+  - https://www.linkedin.com/in/avigoldberg/
 
 ---
 
 # Avi Goldberg
-
-**Partner**  
-GreatPoint Ventures
-
-**Last Reviewed:** July 17, 2026
 
 ## Executive Summary
 
