@@ -15,6 +15,7 @@ tags:
   - FIX protocol
   - order management
   - execution management
+  - capital markets
 
 links:
   - label: LinkedIn
@@ -31,29 +32,17 @@ sources:
 
 # Gregg Drumma
 
-Gregg Drumma is the founder of Gamma Three Trading, a Boston-based financial technology company that develops software products and services for the global securities industry. His career spans more than three decades in software engineering, electronic trading, and capital markets technology, with particular expertise in Order Management Systems (OMS), Execution Management Systems (EMS), and the FIX Protocol. :contentReference[oaicite:0]{index=0}
+Gregg Drumma is the founder of Gamma Three Trading, a Boston-based financial technology company that develops software products and services for the global securities industry. Over more than three decades in software engineering and electronic trading, he has built a reputation for designing scalable trading infrastructure and advancing open industry standards for institutional capital markets.
 
-## Founder of Gamma Three Trading
+Since founding Gamma Three Trading in 2010, Drumma has focused on helping buy-side firms, sell-side institutions, and exchanges improve electronic trading and post-trade workflows through modern software solutions. His work combines deep technical expertise with extensive practical experience in Order Management Systems (OMS), Execution Management Systems (EMS), and financial messaging technologies.
 
-Drumma founded Gamma Three Trading in April 2010 with the goal of delivering advanced software solutions for electronic trading and settlement. The company serves buy-side firms, sell-side institutions, and securities exchanges by combining deep technical expertise with practical experience gained from years of developing institutional trading platforms. :contentReference[oaicite:1]{index=1}
+Before establishing Gamma Three Trading, Drumma spent approximately twelve years as Vice President of Electronic Trading at Linedata Services. There he led product development for electronic trading across equities, equity derivatives, foreign exchange, fixed income, and swap markets. During his tenure he developed Linedata's FIX Engine and created a patented BlotterSynchronization technology that helped integrate Order Management Systems and Execution Management Systems into a unified trading environment.
 
-A long-time advocate of open industry standards, Drumma has participated in the Financial Information eXchange (FIX) community for many years. He has spoken at conferences organized by FIX Protocol Ltd., TradeTech, Institutional Investor, and other organizations, promoting the adoption of standardized messaging across multiple asset classes including equities, derivatives, foreign exchange, fixed income, and over-the-counter markets. :contentReference[oaicite:2]{index=2}
+Throughout his career Drumma has been an active participant in the Financial Information eXchange (FIX) community. He has served on multiple FIX Protocol working groups and has spoken at conferences hosted by organizations including FIX Protocol Ltd., TradeTech, and Institutional Investor. His presentations have promoted open standards and expanded electronic trading support across multiple asset classes, including equities, derivatives, foreign exchange, fixed income, and over-the-counter markets.
 
-Gamma Three Trading also participated in Microsoft's BizSpark program, giving the company access to Microsoft technologies and development resources for building next-generation financial software. :contentReference[oaicite:3]{index=3}
+Gamma Three Trading also participated in Microsoft's BizSpark program, providing the company with access to Microsoft technologies and development resources used to build next-generation financial software platforms.
 
-## Linedata Services
-
-Prior to founding Gamma Three Trading, Drumma spent approximately twelve years as Vice President of Electronic Trading at Linedata Services. During this period he directed product development for electronic trading capabilities supporting equities, equity derivatives, foreign exchange, fixed income, and swaps. :contentReference[oaicite:4]{index=4}
-
-Among his technical accomplishments, he developed Linedata's FIX Engine and created the patented BlotterSynchronization technology, designed to integrate Order Management Systems and Execution Management Systems into a unified trading workflow. He also served on multiple FIX Protocol working groups during this period. :contentReference[oaicite:5]{index=5}
-
-## Earlier Career
-
-Drumma began his professional career as an Embedded Software Engineer at Motorola, where he developed software for GSM mobile phones before transitioning into financial technology. :contentReference[oaicite:6]{index=6}
-
-## Education
-
-Drumma earned a Bachelor of Science in Computer Science from the State University of New York at Binghamton. :contentReference[oaicite:7]{index=7}
+Earlier in his career, Drumma worked as an Embedded Software Engineer at Motorola, where he developed software for GSM mobile phones. He earned a Bachelor of Science in Computer Science from the State University of New York at Binghamton.
 
 ## Areas of Expertise
 
@@ -63,8 +52,10 @@ Drumma earned a Bachelor of Science in Computer Science from the State Universit
 - Execution Management Systems (EMS)
 - FIX Protocol
 - Capital Markets Infrastructure
-- Trading System Architecture
-- Software Engineering
+- Software Architecture
+- Enterprise Software Development
+- Trading Platform Design
+- Cross-Asset Trading
 
 ## References
 
