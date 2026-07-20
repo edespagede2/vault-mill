@@ -1,6 +1,6 @@
 ---
-id: "mn_000001"
-type: "person"
+millname: "mn_001000"
+type: "executive"
 slug: "allen-deary"
 
 name: "Allen Deary"
@@ -14,7 +14,9 @@ description: >
   enterprise software, cloud computing, outsourced product development,
   and global operations.
 
+image: ""
 last_reviewed: 2026-07-17
+published: true
 
 tags:
   - OpenExchange
@@ -34,7 +36,6 @@ relationships: []
 sources:
   - https://www.linkedin.com/in/adeary/
   - https://www.openexc.com/
-
 ---
 
 # Allen Deary

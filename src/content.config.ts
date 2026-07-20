@@ -1,5 +1,6 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
+import { ENTITY_TYPES } from "./lib/entityTypes";
 
 const millnames = defineCollection({
   loader: glob({
@@ -8,42 +9,36 @@ const millnames = defineCollection({
   }),
 
   schema: z.object({
-    // =========================================================================
+    //
     // Identity
-    // =========================================================================
+    //
+    millname: z.string(),
 
-    id: z.string(),
-    type: z.enum([
-      "person",
-      "organization",
-      "place",
-      "product",
-      "event",
-      "animal",
-    ]),
+    type: z.enum(ENTITY_TYPES),
+
     slug: z.string(),
 
-    // =========================================================================
+    //
     // Core Information
-    // =========================================================================
-
+    //
     name: z.string(),
+
     description: z.string(),
 
     image: z.string().optional(),
 
     last_reviewed: z.date(),
 
-    // =========================================================================
-    // Classification
-    // =========================================================================
+    published: z.boolean().default(true),
 
+    //
+    // Classification
+    //
     tags: z.array(z.string()).default([]),
 
-    // =========================================================================
+    //
     // External Links
-    // =========================================================================
-
+    //
     links: z
       .array(
         z.object({
@@ -53,10 +48,9 @@ const millnames = defineCollection({
       )
       .default([]),
 
-    // =========================================================================
+    //
     // Relationships
-    // =========================================================================
-
+    //
     relationships: z
       .array(
         z.object({
@@ -66,36 +60,13 @@ const millnames = defineCollection({
       )
       .default([]),
 
-    // =========================================================================
+    //
     // Sources
-    // =========================================================================
-
+    //
     sources: z.array(z.string().url()).default([]),
-  }),
-});
-
-const companies = defineCollection({
-  loader: glob({
-    pattern: "**/*.md",
-    base: "./src/content/companies",
-  }),
-
-  schema: z.object({
-    id: z.string(),
-    slug: z.string(),
-    name: z.string(),
-    legal_name: z.string(),
-    ticker: z.string().optional(),
-    exchange: z.string().optional(),
-    industry: z.string().optional(),
-    headquarters: z.string().optional(),
-    website: z.string().optional(),
-    founded: z.number().optional(),
-    published: z.boolean().default(true),
   }),
 });
 
 export const collections = {
   millnames,
-  companies,
 };

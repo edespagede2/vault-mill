@@ -1,6 +1,6 @@
 ---
-id: "mn_000004"
-type: "person"
+millname: "mn_001003"
+type: "executive"
 slug: "david-pann"
 
 name: "David Pann"
@@ -13,7 +13,9 @@ description: >
   digital transformation across both established technology companies
   and high-growth organizations.
 
+image: ""
 last_reviewed: 2026-07-17
+published: true
 
 tags:
   - Product Management
@@ -29,9 +31,7 @@ relationships: []
 
 sources:
   - https://www.linkedin.com/in/davidpann/
-
 ---
-
 # David Pann
 
 **Last Reviewed:** July 17, 2026

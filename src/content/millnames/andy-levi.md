@@ -1,6 +1,6 @@
 ---
-id: "mn_000002"
-type: "person"
+millname: "mn_001001"
+type: "executive"
 slug: "andy-levi"
 
 name: "Andy Levi"
@@ -13,7 +13,9 @@ description: >
   consistent focus on bringing innovative technologies from concept to
   market.
 
+image: ""
 last_reviewed: 2026-07-17
+published: true
 
 tags:
   - Amazon Web Services
@@ -33,9 +35,7 @@ relationships: []
 sources:
   - https://www.linkedin.com/in/andylevi/
   - https://aws.amazon.com/
-
 ---
-
 # Andy Levi
 
 **Principal Product Leader, GenAI / AI & ML**  

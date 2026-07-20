@@ -1,6 +1,6 @@
 ---
-id: "mn_000003"
-type: "person"
+millname: "mn_001002"
+type: "executive"
 slug: "avi-goldberg"
 
 name: "Avi Goldberg"
@@ -13,7 +13,9 @@ description: >
   venture capital, with a focus on helping emerging companies grow
   from early-stage concepts into scalable businesses.
 
+image: ""
 last_reviewed: 2026-07-17
+published: true
 
 tags:
   - GreatPoint Ventures
@@ -30,7 +32,6 @@ relationships: []
 
 sources:
   - https://www.linkedin.com/in/avigoldberg/
-
 ---
 
 # Avi Goldberg

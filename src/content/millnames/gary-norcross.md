@@ -1,6 +1,6 @@
 ---
-id: "mn_000005"
-type: "person"
+millname: "mn_001004"
+type: "executive"
 slug: "gary-norcross"
 
 name: "Gary Norcross"
@@ -13,7 +13,9 @@ description: >
   he led the company's evolution into one of the world's largest
   providers of financial technology solutions.
 
+image: ""
 last_reviewed: 2026-07-17
+published: true
 
 tags:
   - Fiserv
@@ -33,7 +35,6 @@ relationships: []
 sources:
   - https://www.linkedin.com/in/gary-norcross/
   - https://www.fiserv.com/
-
 ---
 
 # Gary Norcross
