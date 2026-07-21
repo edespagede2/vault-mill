@@ -5,19 +5,52 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
 import MillNameCard from "../components/MillNameCard.astro";
 
-const millnames = await getCollection("millnames");
+const executives = await getCollection("millnames");
+
+// Sort alphabetically
+executives.sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
+);
 ---
 
-<BaseLayout title="VaultMill">
+<BaseLayout
+  title="VaultMill"
+  description="Structured executive profiles built from publicly available information."
+>
+
   <Hero />
 
-  <section class="featured">
-    <h2>MillNames</h2>
+  <section
+    id="featured"
+    class="featured">
+
+    <h2>Featured Executives</h2>
 
     <div class="millname-grid">
-      {millnames.map((millname) => (
-        <MillNameCard millname={millname} />
+
+      {executives.map((executive) => (
+
+        <MillNameCard
+          millname={executive}
+        />
+
       ))}
+
     </div>
+
   </section>
+
+  <section class="page">
+
+    <h2>About VaultMill</h2>
+
+    <p>
+      VaultMill is building a structured knowledge platform for business
+      leaders. Today the focus is executive profiles. Future releases will
+      expand to companies, boards, organizations, industries, places, and
+      the relationships that connect them.
+    </p>
+
+  </section>
+
 </BaseLayout>

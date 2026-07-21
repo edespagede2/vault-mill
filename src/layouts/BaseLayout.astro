@@ -5,35 +5,75 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
 interface Props {
-  title: string;
+  title?: string;
+  description?: string;
 }
 
-const { title } = Astro.props;
+const {
+  title = "VaultMill",
+  description = "Structured intelligence for executives, companies, boards, organizations, and industries."
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
+
+  <meta charset="utf-8" />
+
   <meta
     name="viewport"
-    content="width=device-width, initial-scale=1.0"
+    content="width=device-width, initial-scale=1"
   />
 
-  <title>{title} | VaultMill</title>
+  <title>{title}</title>
+
+  <meta
+    name="description"
+    content={description}
+  />
+
+  <meta
+    name="theme-color"
+    content="#ffffff"
+  />
+
+  <meta
+    name="color-scheme"
+    content="light"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
 </head>
 
 <body>
 
-<Header />
+  <Header />
 
-<main>
+  <main>
 
-<slot />
+    <slot />
 
-</main>
+  </main>
 
-<Footer />
+  <Footer />
 
 </body>
 
