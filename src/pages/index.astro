@@ -7,9 +7,9 @@ import MillNameCard from "../components/MillNameCard.astro";
 
 const executives = await getCollection("millnames");
 
-// Sort alphabetically
+// Sort alphabetically by name
 executives.sort((a, b) =>
-  a.data.title.localeCompare(b.data.title)
+  a.data.name.localeCompare(b.data.name)
 );
 ---
 
@@ -17,40 +17,26 @@ executives.sort((a, b) =>
   title="VaultMill"
   description="Structured executive profiles built from publicly available information."
 >
-
   <Hero />
 
-  <section
-    id="featured"
-    class="featured">
-
+  <section id="featured" class="featured">
     <h2>Featured Executives</h2>
 
     <div class="millname-grid">
-
       {executives.map((executive) => (
-
-        <MillNameCard
-          millname={executive}
-        />
-
+        <MillNameCard millname={executive} />
       ))}
-
     </div>
-
   </section>
 
   <section class="page">
-
     <h2>About VaultMill</h2>
 
     <p>
       VaultMill is building a structured knowledge platform for business
-      leaders. Today the focus is executive profiles. Future releases will
-      expand to companies, boards, organizations, industries, places, and
-      the relationships that connect them.
+      leaders. Today the focus is executive profiles. Future releases
+      will expand to companies, boards, organizations, industries,
+      places, and the relationships that connect them.
     </p>
-
   </section>
-
 </BaseLayout>
