@@ -2,8 +2,14 @@
 millname: "mn_001009"
 type: "executive"
 slug: "leo-koenig"
+
 name: "Leo Koenig"
-description: "Founder and CEO of WOO Sports, entrepreneur, engineer, and product innovator focused on wearable technology, sports analytics, and connected consumer products."
+
+description: >
+  Founder and Chief Executive Officer of WOO Sports, entrepreneur,
+  engineer, and product innovator focused on wearable technology,
+  sports analytics, and connected consumer products.
+
 image: ""
 last_reviewed: 2026-07-20
 published: true
@@ -22,11 +28,12 @@ tags:
 
 links:
   - label: LinkedIn
-    url: "https://www.linkedin.com/in/leokoenig"
+    url: https://www.linkedin.com/in/leokoenig
 
-references:
-  - "WOO Sports"
-  - "LinkedIn"
+relationships: []
+
+sources:
+  - https://www.linkedin.com/in/leokoenig
 ---
 
 # Leo Koenig
@@ -53,8 +60,3 @@ He has also contributed intellectual property in areas related to sensing techno
 - Data analytics
 - Leadership
 - Innovation strategy
-
-## References
-
-- WOO Sports
-- LinkedIn

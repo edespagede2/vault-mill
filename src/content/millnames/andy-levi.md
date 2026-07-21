@@ -36,6 +36,7 @@ sources:
   - https://www.linkedin.com/in/andylevi/
   - https://aws.amazon.com/
 ---
+
 # Andy Levi
 
 **Principal Product Leader, GenAI / AI & ML**  
@@ -66,5 +67,6 @@ In addition to his corporate responsibilities, Levi serves as a mentor with Tech
 
 ## Education
 
-**Universidad Metropolitana**  
+**Universidad Metropolitana**
+
 Bachelor of Science in Systems Engineering

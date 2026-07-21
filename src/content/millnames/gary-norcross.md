@@ -6,22 +6,23 @@ slug: "gary-norcross"
 name: "Gary Norcross"
 
 description: >
-  Gary Norcross is a technology executive with more than three decades
-  of experience leading enterprise software companies through sustained
-  growth, global expansion, and digital transformation. He is best known
-  for serving as President and Chief Executive Officer of Fiserv, where
-  he led the company's evolution into one of the world's largest
-  providers of financial technology solutions.
+  Technology executive and former Chairman and Chief Executive Officer
+  of Fiserv with extensive leadership experience in financial services,
+  payments, fintech, banking technology, and enterprise software.
 
 image: ""
-last_reviewed: 2026-07-17
+last_reviewed: 2026-07-20
 published: true
 
 tags:
-  - Fiserv
-  - Financial Technology
-  - FinTech
-  - Technology Leadership
+  - executive
+  - chief executive officer
+  - fintech
+  - financial services
+  - payments
+  - banking
+  - enterprise software
+  - technology leadership
 
 links:
   - label: LinkedIn
@@ -39,32 +40,46 @@ sources:
 
 # Gary Norcross
 
-**President and Chief Executive Officer**  
+**Former Chairman and Chief Executive Officer**  
 Fiserv
 
-**Last Reviewed:** July 17, 2026
+**Last Reviewed:** July 20, 2026
 
 ## Executive Summary
 
-Gary Norcross is a technology executive with more than three decades of experience leading enterprise software companies through sustained growth, global expansion, and digital transformation. He is best known for serving as President and Chief Executive Officer of Fiserv, where he led the company's evolution into one of the world's largest providers of financial technology solutions.
+Gary Norcross is a technology executive with more than three decades of leadership experience in financial technology, payments, banking, and enterprise software. Best known for his tenure as Chairman and Chief Executive Officer of Fiserv, he led the company through a period of sustained growth, technological innovation, and strategic expansion, including the transformational acquisition of First Data. His career has focused on helping financial institutions modernize operations through software, payments technology, and digital financial services.
 
 ## Career Highlights
 
-- President and Chief Executive Officer of Fiserv.
+- Former Chairman and Chief Executive Officer of Fiserv.
 - Led the acquisition and integration of First Data.
-- Expanded Fiserv into a global leader in payments and financial technology.
-- Long-standing advocate for innovation in digital banking and payments.
+- Oversaw significant expansion in digital payments and financial technology.
+- More than three decades of executive leadership in banking technology.
+- Longtime advocate for innovation in financial services.
 
 ## Professional Journey
 
-Norcross joined Fiserv in 1988 and advanced through a series of leadership positions spanning technology, operations, and executive management before becoming President and Chief Executive Officer in 2015. Under his leadership, the company expanded its global footprint, accelerated innovation in digital payments, and strengthened its position across banking, merchant services, and financial technology.
+Norcross joined Fiserv in 1988 and held a series of progressively senior leadership positions before being appointed President and Chief Operating Officer in 2002. In 2007, he became Chief Executive Officer and later Chairman of the Board, leading one of the world's largest providers of financial technology and payments solutions.
 
-One of the defining milestones of his tenure was the acquisition of First Data in 2019. The transaction significantly broadened Fiserv's capabilities in payments, commerce, and merchant services, creating one of the largest financial technology companies in the world. Norcross has overseen the integration of these businesses while continuing to invest in cloud technologies, digital banking platforms, embedded finance, and AI-enabled financial services.
+During his tenure, Fiserv expanded its portfolio of banking, payments, merchant services, and digital financial products through both organic growth and strategic acquisitions. One of the most significant milestones was the acquisition of First Data in 2019, creating a global leader serving financial institutions, merchants, and businesses with integrated payment and commerce solutions.
 
-Throughout his career, he has emphasized operational excellence, long-term customer relationships, and disciplined execution. His leadership has guided Fiserv through periods of significant technological change while maintaining a strong focus on innovation, growth, and shareholder value.
+Norcross emphasized long-term innovation, client relationships, and operational excellence throughout his leadership. Under his direction, Fiserv invested heavily in cloud technologies, digital banking platforms, real-time payments, and commerce solutions while expanding its global customer base.
+
+His leadership has been widely recognized within the financial technology industry for helping shape the evolution of digital payments and banking infrastructure.
 
 ## Education
 
-**Brown University**
+Gary Norcross earned a Bachelor of Business Administration degree from the University of Rhode Island.
 
-Bachelor of Arts
+## Areas of Expertise
+
+- Executive Leadership
+- Financial Technology (FinTech)
+- Digital Payments
+- Banking Technology
+- Enterprise Software
+- Corporate Strategy
+- Mergers and Acquisitions
+- Digital Banking
+- Technology Innovation
+- Corporate Governance

@@ -32,6 +32,7 @@ relationships: []
 sources:
   - https://www.linkedin.com/in/davidpann/
 ---
+
 # David Pann
 
 **Last Reviewed:** July 17, 2026

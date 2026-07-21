@@ -2,8 +2,14 @@
 millname: "mn_001008"
 type: "executive"
 slug: "kathy-jeffery"
+
 name: "Kathy Jeffery"
-description: "People and Talent executive, executive coach, and organizational leadership advisor specializing in helping high-growth organizations build leadership capability and high-performing cultures."
+
+description: >
+  People and Talent executive, executive coach, and organizational
+  leadership advisor specializing in helping high-growth organizations
+  build leadership capability and high-performing cultures.
+
 image: ""
 last_reviewed: 2026-07-20
 published: true
@@ -22,15 +28,16 @@ tags:
 
 links:
   - label: LinkedIn
-    url: "https://www.linkedin.com/in/kathyjeffery"
+    url: https://www.linkedin.com/in/kathyjeffery
+
   - label: Leadership Blog
-    url: "https://open.substack.com/pub/katjeffery/p/the-4-traits-that-actually-scale"
+    url: https://open.substack.com/pub/katjeffery/p/the-4-traits-that-actually-scale
 
 relationships: []
 
 sources:
-  - "https://www.linkedin.com/in/kathyjeffery"
-  - "https://open.substack.com/pub/katjeffery/p/the-4-traits-that-actually-scale"
+  - https://www.linkedin.com/in/kathyjeffery
+  - https://open.substack.com/pub/katjeffery/p/the-4-traits-that-actually-scale
 ---
 
 # Kathy Jeffery
@@ -68,8 +75,3 @@ She holds a Master's Degree in Managerial Communication from Northwestern Univer
 - Artificial Intelligence in the Workplace
 - Human Resources
 - Healthcare and MedTech
-
-## References
-
-- LinkedIn Profile
-- Leadership Blog
