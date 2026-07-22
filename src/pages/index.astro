@@ -6,6 +6,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
 import MillNameCard from "../components/MillNameCard.astro";
 
+console.log("Host header:", Astro.request.headers.get("host"));
+console.log("Astro.url.hostname:", Astro.url.hostname);
+
 const host = Astro.request.headers.get("host") ?? "";
 
 const executive = await resolveDomain(host);
