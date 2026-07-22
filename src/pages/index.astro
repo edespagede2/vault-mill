@@ -1,13 +1,33 @@
 ---
 import { getCollection } from "astro:content";
+import { resolveDomain } from "../lib/domainResolver";
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
 import MillNameCard from "../components/MillNameCard.astro";
 
+const host = Astro.request.headers.get("host") ?? "";
+
+const executive = await resolveDomain(host);
+
+if (executive) {
+  return Astro.redirect(`/millnames/${executive.data.slug}`, 307);
+}
+
+const normalized = host
+  .toLowerCase()
+  .replace(/:\d+$/, "")
+  .replace(/^www\./, "");
+
+if (
+  normalized !== "vaultmill.com" &&
+  normalized !== ""
+) {
+  return Astro.redirect("https://www.vaultmill.com", 301);
+}
+
 const executives = await getCollection("millnames");
 
-// Sort alphabetically by name
 executives.sort((a, b) =>
   a.data.name.localeCompare(b.data.name)
 );

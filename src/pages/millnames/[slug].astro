@@ -2,27 +2,19 @@
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-export async function getStaticPaths() {
-  const millnames = await getCollection("millnames");
+const slug = Astro.params.slug;
 
-  return Promise.all(
-    millnames.map(async (millname) => {
-      const { Content } = await render(millname);
+const millnames = await getCollection("millnames");
 
-      return {
-        params: {
-          slug: millname.data.slug,
-        },
-        props: {
-          millname,
-          Content,
-        },
-      };
-    })
-  );
+const millname = millnames.find(
+  (entry) => entry.data.slug === slug
+);
+
+if (!millname) {
+  return Astro.redirect("/404");
 }
 
-const { millname, Content } = Astro.props;
+const { Content } = await render(millname);
 ---
 
 <BaseLayout title={millname.data.name}>

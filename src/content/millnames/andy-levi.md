@@ -3,6 +3,10 @@ millname: "mn_001001"
 type: "executive"
 slug: "andy-levi"
 
+domains:
+  - andylevi.com
+  - andylevi.org
+
 name: "Andy Levi"
 
 description: >
